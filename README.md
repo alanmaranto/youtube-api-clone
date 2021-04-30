@@ -11,4 +11,4 @@
 `npx sequelize db:migrate:undo:all`
 
 ## Run specific seeds
-`npx sequelize db:seed --seed <name of seed>`
+`npx sequelize-cli seed:generate --name <name of seed>`
